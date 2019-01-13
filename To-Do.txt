@@ -1,0 +1,7 @@
+1. Add background Worker Processing and progress reporting as per file renaming app
+2. Refactor formatter class into base/ID3V1/ID3V2 sub classes
+3. Add a search panel by comments #hashtag value
+4. Add the ability to add comments #hashtags to artists/albums/tracks etc
+5. When editing manual tags (only some) - exception is thrown as the empty fields are taken even if the check boxes are not checked.
+6. Related to 5 - tool not working so good with files in this format to start: 01 - Track Name
+7. Upper case after '-'

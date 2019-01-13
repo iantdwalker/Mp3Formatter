@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Dictionary>
+	<!-- The dictionary provides a list of hard-coded word replacements that will
+	overwite any formatting options selected. All of the 'before' values are deemed
+	to be case insensitive but all of the 'after' values are case sensitive. The 
+	'replacementTypes' are either 'FullWord' (replace the entire word) or 'WordSegment'
+	(the phrase can be found as part of a larger word). -->
+	<Replacements>
+		<Replacement before="w/" after="With " replacementType="WordSegment" />
+		<Replacement before="EP" after="EP" replacementType="FullWord" />
+		<Replacement before="ep" after="EP" replacementType="FullWord" />
+		<Replacement before="Ep" after="EP" replacementType="FullWord" />
+		<Replacement before="DJ" after="DJ" replacementType="FullWord" />
+		<Replacement before="dj" after="DJ" replacementType="FullWord" />
+		<Replacement before="Dj" after="DJ" replacementType="FullWord" />
+	</Replacements>
+</Dictionary>
